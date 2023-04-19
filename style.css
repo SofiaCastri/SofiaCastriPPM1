@@ -1,0 +1,1706 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.EsternoMargini{
+    background: floralwhite;
+}
+.Margini{
+    display: flex;
+    flex-direction: column;
+    margin-right:100px;
+    margin-left:100px;
+    background: white;
+    left:0;
+    right:0;
+}
+
+.conteiner-Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background: white;
+    margin-bottom: 5px;
+}
+.conteiner-Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    line-height: 1px;
+    margin-bottom:20px;
+}
+.ScritteH1{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 0.375rem;
+    margin-left: 20px;
+}
+.Scrittep{
+    display: flex;
+}
+.conteiner-bottone{
+    display: flex;
+}
+.conteiner-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    width:230px;
+}
+.contenitoreLinkHeader{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:20px;
+    margin-top:10px;
+}
+.contenitoreNav {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.ContenitoreNascosto{
+    display: none;
+}
+.contenitoreSearch {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+button{
+    font-family: "TT Norms Pro Regular",sans-serif;
+    color:white;
+    background-color: darkred;
+    font-weight: bold;
+    justify-content: center;
+    outline: none;
+    border-bottom: none;
+    width:250px;
+    height: 30px;
+    margin-left: 20px;
+    padding-bottom: inherit;
+    margin-top: 5px;
+}
+.nav a {
+    color:gray;
+    flex-wrap: nowrap;
+}
+
+.conteinerVuoto {
+    display: flex;
+    width: 200px;
+    height: 200px;
+}
+
+
+.conteinerRiga1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-right: 20px;
+}
+.conteinerVuoto2 {
+    display: flex;
+    width: 250px;
+    height: 15px;
+}
+.conteiner-director {
+    display: flex;
+    color:gray;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.conteiner-update {
+    display: flex;
+    color:gray;
+    justify-content: flex-end;
+}
+
+.conteinerVuoto2 {
+    display: flex;
+    height: 5px;
+}
+
+.conteinerRiga2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Conteiner-Temi p{
+    display: flex;
+    color:gray;
+    font-size: inherit;
+    font-family: "TT Norms Pro Medium",sans-serif;
+}
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.contenitoreNav2 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.contenitoreNav2 a {
+    display: flex;
+    flex-wrap: nowrap;
+    color: black;
+    font-family: "TT Norms Pro Medium",sans-serif;
+}
+.Conteiner-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: black;
+    font-family: "TT Norms Pro Medium",sans-serif;
+}
+
+
+.conteinerVuoto5 {
+    display: flex;
+    height: 40px;
+}
+
+/*striscia Rossa*/
+.blocco-fqextra{
+    display: flex;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+.blocco-fqextra-Scritta p{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 10px;
+    color: white;
+    align-content: space-between;
+}
+#circle {
+    width: 7px;
+    height: 7px;
+    background: white;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.conteinerSinistra{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 10px;
+    margin-top:7px;
+    color: white;
+    align-content: space-between;
+}
+.conteinerDestra{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 10px;
+    color: white;
+    align-content: space-between;
+    margin-top:7px;
+}
+.bloccoSezione p{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 10px;
+    color: white;
+    align-content: space-between
+}
+.bloccoQuotidiano p{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 10px;
+    color: white;
+    align-content: space-between
+}
+.bloccoPremium p{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 10px;
+    color: white;
+    align-content: space-between;
+}
+.bloccoAbbonati p{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-right: 10px;
+    color: white;
+    justify-content: flex-end;
+}
+
+/*Carosello*/
+
+.carousel-item{
+    height: 8rem;
+    width: 1478px;
+    background: #413d3b;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+.ContenitoreCarosello{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+.carousel-inner{
+    display: flex;
+    flex-direction: row;
+}
+.carousel-item active{
+    display: flex;
+    flex-direction: row;
+}
+.ContenitoreCarosello1{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 70px;
+    margin-top:15px;
+    justify-content: space-between
+
+}
+.ContenitoreCarosello2{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 70px;
+    margin-top:15px;
+    justify-content: space-between
+
+}
+.LineaVuota {
+    display: flex;
+    height: 2px;
+}
+.carousel-control-prev{
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #e31006!important;
+}
+.carousel-control-next{
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #e31006!important;
+    margin-right:23px;
+}
+
+.SecondaLineaVuota{
+    display: flex;
+    height: 10px;
+}
+
+.conteinerTitotolo{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-left: 20px;
+}
+
+
+/*Divisione in dure Colonne Immagine e Articolo*/
+.col-lg-7{
+    display: flex;
+    flex-direction: row;
+}
+.col-lg-7 img{
+    margin-right:20px;
+    vertical-align: middle;
+    margin-left:20px;
+    width:850px; height:350px;
+}
+.col-lg-2{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+
+}
+h3 {
+    font-family: "TT Norms Pro Regular",sans-serif;
+}
+.ColonnaArticolo{
+    display: flex;
+    flex-direction: column;
+}
+.ConteinerEsterno{
+    display: flex;
+    flex-direction: column;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    justify-content: space-between;
+}
+.Conteriner1{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    justify-content: space-between;
+}
+
+
+
+
+/* Divisione in TRE Colonne uguali..................... */
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33%;
+    padding:0;
+
+}
+.cardColonna{
+    display: flex;
+    flex-direction: column;
+    border-right:1px solid #ced0d3;
+    margin-left:20px;
+}
+.ImmagineSecondaColonna{
+    display: flex;
+}
+.ImmagineSecondaColonna img {
+    width: 400px;
+    height:173px;
+}
+.TitoloSecondaColonna{
+    display: flex;
+}
+.DescrizioneSecondaColonna{
+    display: flex;
+    margin-right:20px;
+}
+.ContenitoreSecondaColonna{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.ContenitoreSecondaFQ{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+}
+.Conteiner-iconsFQSeconda{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-top:10px;
+}
+
+
+
+/* Divisione in TRE Colonne diverse */
+.ContenitoreBandiera{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.ImmagineNome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.NomeD{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+.ImmagineBandiera{
+    display: flex;
+
+}
+.NomeBandiera{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+}
+.ColoriBandiera{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+}
+.IntroduzioneBandiera{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.NomeBandiera h4{
+    font-family: "TT Norms Pro Regular",sans-serif;
+    font-size: small;
+    color: #4a4e54;
+    margin-top:15px;
+}
+.ColoriBandiera p{
+    font-family: "TT Norms Pro Regular",sans-serif;
+    font-size: small;
+    color: gray;
+}
+.IconeBandiera{
+    display: flex;
+    margin-top:30px;
+}
+.DescrizioneBandiera{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    font-size: medium;
+    color: black;
+    margin-left:95px;
+    line-height: 1.4;
+}
+
+.ContenitoreQuattro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.TitoloQuattro{
+    display: flex;
+}
+.DescrizioneTitoloQuattro{
+    display: flex;
+}
+.Paragrafo1{
+    display: flex;
+}
+.Paragrafo2{
+    display: flex;
+}
+.Paragrafo3{
+    display: flex;
+    margin-right:10px;
+}
+.ContenitoreFinale{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.ContenitoreFQ{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+}
+.Conteiner-iconsFQ{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    margin-top: 10px;
+}
+
+/* ------------------------------------------------------------------- */
+
+
+.conteinerVuotoGalleria {
+    display: flex;
+    height: 20px;
+}
+
+/* RULLO------------------------------------------------------------------- */
+.Rullonuovo{
+    display: flex;
+    width:98.5%;
+}
+.col-lg-3 {
+    width: 24.33%;
+}
+.col-leg-3 img{
+    width: 100%;
+}
+.cardColonnaNuova{
+    display: flex;
+    flex-direction: column;
+}
+.ImmagineSecondaColonnaNuova{
+    display: flex;
+}
+.ImmagineSecondaColonnaNuova img {
+    width: 380px;
+    height:173px;
+}
+/* ------------------------------------------------------------------- */
+
+
+
+.ScuolaIlFattoQuotidiano{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ScuolaIlFattoQuotidiano img{
+    width:100%;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+
+
+
+/* Divisione due colonne articolo e colonna piccola */
+.DueColonne{
+    display: flex;
+    max-width: 1860px;
+}
+.col-lg-8 {
+    flex: 0 0 auto;
+    width: 65.5%;
+    padding:0;
+}
+.DueColonneNuovo{
+    display: none;
+}
+.ColNuova{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ContenitoreNotizia{
+    display: flex;
+    flex-direction: column;
+    border-right:1px solid #ced0d3;
+}
+.ContenitoreTitoloAlto{
+    display: flex;
+    margin-left: 20px;
+}
+.ImmagineTestoNotizia{
+    display: flex;
+    flex-direction: row;
+}
+.ImmagineNotizia{
+    display: flex;
+}
+.ImmagineNotizia img{
+    width: 400px;
+    height: 300px;
+}
+.Notizie{
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column;
+    margin-right:10px;
+}
+.NotiziaGrande{
+    display: flex;
+}
+.NotiziaUno{
+    display: flex;
+}
+.NotiziaDue{
+    display: flex;
+}
+.NotiziaTre{
+    display: flex;
+}
+.ContenitoreFinaleQuattro{
+    display: flex;
+    flex-direction: row;
+    font-family: "TT Norms Pro Regular",sans-serif;
+    justify-content: space-between;
+}
+.ContenitoreFQQuattro{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+}
+.Conteiner-iconsFQQuattro{
+    display: flex;
+    font-family: "TT Norms Pro Regular",sans-serif;
+}
+
+.Grigio{
+    display: flex;
+    flex-direction: column;
+    background: darkgrey;
+    margin-right:20px;
+}
+/* ---------------------------------------------------- */
+
+
+.ContenitoreFooter{
+    display: flex;
+    flex-direction: column;
+}
+.Footer-Logo{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+}
+.LogoFinale{
+    display: flex;
+    flex-direction: row;
+}
+.Divisore{
+    display: flex;
+    height: 1px;
+    background: white;
+    margin-right:20px;
+    margin-left:20px;
+}
+.Footer-link{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    margin-top:20px;
+    flex-wrap: nowrap;
+
+}
+.contenitoreLink{
+    display: flex;
+}
+.contenitoreLink2{
+    display:none;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.contenitoreLink3{
+    display:none;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.contenitoreLinkS{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.contenitoreLinkS2{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-left: 300px;
+}
+.Footer-Social{
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    margin-top:20px;
+}
+.contenitoreSocial{
+    display: flex;
+}
+.Footer-Finale{
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    margin-top:20px;
+}
+
+
+/*PARTE JAVA*-----------------------------------------------------------------*/
+
+.CH1 {
+    display: none;
+}
+.Cp {
+    display: none;
+}
+.CBottone{
+    margin-top:5px;
+}
+.CHeader{
+    height: 50px;
+    position: fixed;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    right: 0;
+    z-index: 1000;
+    left:0;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.ContenitoreLink{
+    overflow: auto;
+}
+.CLogo{
+    width: 200px !important;
+}
+
+
+
+
+/*RESPONSIVE--------------------------------------------------------------------*/
+
+@media (max-width: 537px) {
+    .Margini{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .CHeader{
+        height: 50px;
+        position: fixed;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        right: 0;
+        z-index: 1000;
+        margin:0;
+    }
+    .conteiner-Header{
+        float: left;
+        height:50px;
+        width:100% ;
+    }
+    .ScritteH1{
+        display:none;
+    }
+    .Scrittep{
+        display:none;
+    }
+    .conteiner-bottone{
+        width:55% ;
+        margin-top:10px;
+    }
+    .conteiner-logo img{
+        display: none;
+    }
+    .conteiner-logo{
+        margin-left:0;
+    }
+    .contenitoreNav{
+        display:none;
+        background:floralwhite;
+    }
+    .ContenitoreNascosto{
+        display: flex;
+    }
+
+    .conteinerVuoto{
+        height: 50px;
+    }
+
+    .contenitoreNav2 {
+        width:100%;
+        overflow-x: scroll;
+    }
+    .Conteiner-icons{
+        margin-top:20px;
+    }
+
+
+    .carousel-inner{
+        width:100%;
+        overflow-x: scroll;
+    }
+
+    .LineaVuota1{
+        display:none;
+    }
+    .bloccoQuotidiano{
+        display:none;
+    }
+
+    .col-lg-7 img{
+        width: 95%;
+    }
+    .col-lg-7 {
+        margin-right:20px;
+        float:left;
+    }
+    .col-lg-2{
+        float: left;
+        width: 100%;
+    }
+    .ColonnaArticolo{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    .TitoloDescrizione2{
+        margin-left: 50px;
+    }
+    .TitoloDescrizione4{
+        margin-left: 50px;
+        margin-right:20px;
+    }
+
+    .col-lg-4{
+        float: left;
+        width: 100%;
+    }
+    .Grigio{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ImmagineSecondaColonna img{
+        float: left;
+        width: 95%;
+        height: 50%;
+    }
+    .ImmagineColonna img{
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    .DescrizioneSecondaColonna{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreSecondaColonna{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreQuattro{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreFinale{
+        margin-right:20px;
+        width: 95%;
+    }
+    .cardColonna{
+        border-right: none;
+    }
+    hr{
+        width: 95%;
+    }
+    .ScuolaIlFattoQuotidiano img{
+        width: 95%;
+    }
+    .ScuolaIlFattoQuotidiano {
+        margin-right:20px;
+    }
+    .DescrizioneBandiera{
+        margin-right:10px;
+    }
+
+    .Rullonuovo{
+        width:100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .col-lg-3 {
+        height: 100%;
+        width: 50%;
+    }
+    .col-lg-3 img {
+        width: 98%;
+    }
+
+    .DueColonneNuovo{
+        display: flex;
+    }
+    .DueColonne{
+        display: none;
+    }
+    .ColNuova{
+        width: 100%;
+    }
+    .ImmagineNotiziaNuova img{
+        width: 100%;
+    }
+    .ImmagineNotiziaNuova {
+        margin-right:20px;
+    }
+    .Notizie{
+        width: 95%;
+        margin-right:20px;
+        flex: 0 0 auto;
+    }
+    .contenitoreLink{
+        display: none;
+    }
+    .contenitoreLink2{
+        display: none;
+    }
+    .contenitoreLink3{
+        display: flex;
+    }
+    .Footer-link{
+        height: 350px;
+
+    }
+}
+@media (max-width: 868px) and (min-width: 537px){
+    .Margini{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .CHeader{
+        height: 50px;
+        position: fixed;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        right: 0;
+        z-index: 1000;
+        margin:0;
+    }
+    .conteiner-Header{
+        float: left;
+        height:50px;
+        width:100% ;
+    }
+    .ScritteH1{
+        display:none;
+    }
+    .Scrittep{
+        display:none;
+    }
+    .conteiner-bottone{
+        width:40% ;
+        margin-top:10px;
+    }
+
+    .conteiner-logo{
+        margin-left:0;
+    }
+    .contenitoreNav{
+        display:none;
+        background:floralwhite;
+    }
+    .ContenitoreNascosto{
+        display: flex;
+    }
+
+    .conteinerVuoto{
+        height: 50px;
+    }
+
+    .TitoloDescrizione2{
+        margin-left: 50px;
+    }
+    .TitoloDescrizione4{
+        margin-left: 50px;
+        margin-right:20px;
+    }
+
+    .contenitoreNav2 {
+        width:100%;
+        overflow-x: scroll;
+    }
+    .Conteiner-icons{
+        margin-top:20px;
+    }
+
+
+    .bloccoQuotidiano{
+        display:none;
+    }
+
+    .LineaVuota1{
+        display:none;
+    }
+
+
+    .col-lg-7 img{
+        width: 95%;
+        height: 310px;
+    }
+    .col-lg-7 {
+        margin-right:20px;
+        float:left;
+    }
+    .col-lg-2{
+        float: left;
+        width: 100%;
+    }
+    .ColonnaArticolo{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+
+    .col-lg-4{
+        float: left;
+        width: 100%;
+    }
+    .Grigio{
+        margin-right:20px;
+        width: 95%;
+    }
+
+    .ImmagineColonna img{
+        float: left;
+        width: 700px;
+        height: 300px;
+    }
+    .cardColonna{
+        border-right: none;
+    }
+    .DescrizioneSecondaColonna{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreSecondaColonna{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreQuattro{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreFinale{
+        margin-right:20px;
+        width: 95%;
+    }
+    hr{
+        width: 95%;
+    }
+    .ScuolaIlFattoQuotidiano img{
+        width: 95%;
+    }
+    .ScuolaIlFattoQuotidiano {
+        margin-right:20px;
+    }
+
+    .Rullonuovo{
+        width:100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .col-lg-3 {
+        width: 45%;
+    }
+    .col-lg-3 img {
+        width: 98%;
+    }
+
+    .DueColonneNuovo{
+        display: flex;
+    }
+    .DueColonne{
+        display: none;
+    }
+    .ColNuova{
+        width: 100%;
+    }
+    .ImmagineNotiziaNuova img{
+        width: 100%;
+    }
+    .ImmagineNotiziaNuova {
+        margin-right:20px;
+    }
+    .Notizie{
+        width: 95%;
+        margin-right:20px;
+        flex: 0 0 auto;
+    }
+
+
+
+    .contenitoreLink{
+        display: none;
+    }
+    .contenitoreLink2{
+        display: none;
+    }
+    .contenitoreLink3{
+        display: flex;
+    }
+    .Footer-link{
+        height: 350px;
+
+    }
+}
+@media (max-width: 993px) and (min-width: 869px) {
+    .Margini{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .CHeader{
+        height: 50px;
+        position: fixed;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        right: 0;
+        z-index: 1000;
+        margin:0;
+    }
+    .conteiner-Header{
+        float: left;
+        height:50px;
+        width:100% ;
+    }
+    .ScritteH1{
+        display:none;
+    }
+    .Scrittep{
+        display:none;
+    }
+    .conteiner-bottone{
+        width:65% ;
+        margin-top:10px;
+    }
+    .conteiner-logo{
+        margin-left:50px;
+    }
+    .contenitoreNav{
+        display:none;
+        background:floralwhite;
+    }
+    .ContenitoreNascosto{
+        display: flex;
+    }
+
+    .conteinerVuoto{
+        height: 50px;
+    }
+
+    .LineaVuota1{
+        display:none;
+    }
+    .contenitoreNav2 {
+        width:100%;
+        overflow-x: scroll;
+    }
+    .Conteiner-icons{
+        margin-top:20px;
+    }
+
+
+    .TitoloDescrizione{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione2{
+        margin-left: 50px;
+    }
+    .TitoloDescrizione3{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione4{
+        margin-left: 50px;
+    }
+
+    .col-lg-7 {
+        width: 60%;
+    }
+    .col-lg-7 img{
+        width: 98%;
+        margin-right:15px;
+    }
+    .col-lg-2 .ColonnaArticolo{
+        width: 100%;
+        margin-right:20px;
+    }
+    .col-lg-4{
+        width: 32.5%;
+    }
+
+
+    .DueColonneNuovo{
+        display: none;
+    }
+    .Grigio{
+        margin-right:20px;
+    }
+
+
+    .ImmagineSecondaColonna img{
+        width: 100%;
+    }
+    .ImmagineSecondaColonna{
+        margin-right:20px;
+    }
+    .DescrizioneSecondaColonna{
+        margin-right:20px;
+    }
+    .ContenitoreQuattro{
+        margin-right:15px;
+    }
+
+    .ContenitoreBandiera{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .DescrizioneBandiera{
+        margin-top:20px;
+        margin-left:20px;
+    }
+    .ScuolaIlFattoQuotidiano img{
+        width: 95%;
+        margin-right: 20px;
+    }
+    hr{
+        width: 95%;
+    }
+
+    .Rullonuovo{
+        width:100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .col-lg-3 {
+        height: 100%;
+        width: 37%;
+    }
+
+    .ContenitoreTitoloAlto{
+        width: 55%;
+    }
+    .Notizie{
+        width: 55%;
+    }
+    .ImmagineNotizia img{
+        width: 230px;
+        height: 180px;
+
+    }
+
+
+    .contenitoreLink{
+        display: none;
+    }
+    .contenitoreLink2{
+        display: none;
+    }
+    .contenitoreLink3{
+        display: flex;
+    }
+    .Footer-link{
+        height: 350px;
+
+    }
+
+
+
+}
+@media (max-width: 1024px) and (min-width: 993px) {
+    .Margini{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .CHeader{
+        height: 50px;
+        position: fixed;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        right: 0;
+        z-index: 1000;
+        margin:0;
+    }
+    .conteiner-Header{
+        float: left;
+        height:50px;
+        width:100% ;
+    }
+    .ScritteH1{
+        display:none;
+    }
+    .Scrittep{
+        display:none;
+    }
+    .conteiner-bottone{
+        width:75% ;
+        margin-top:10px;
+    }
+
+    .conteiner-logo{
+        margin-left:50px;
+    }
+    .contenitoreNav{
+        display:none;
+        background:floralwhite;
+    }
+    .ContenitoreNascosto{
+        display: flex;
+    }
+
+    .conteinerVuoto{
+        height: 50px;
+    }
+
+
+    .contenitoreNav2 {
+        width:100%;
+        overflow-x: scroll;
+    }
+    .Conteiner-icons{
+        margin-top:20px;
+    }
+
+
+    .LineaVuota1{
+        display:none;
+    }
+
+    .TitoloDescrizione{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione2{
+        margin-left: 50px;
+    }
+    .TitoloDescrizione3{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione4{
+        margin-left: 50px;
+    }
+
+
+    .col-lg-7 img{
+        width: 100%;
+    }
+    .col-lg-2 .ColonnaArticolo{
+        width: 100%;
+        margin-left:15px;
+        margin-right:20px;
+    }
+
+    .col-lg-4{
+        width: 32.55555%;
+    }
+    .DueColonneNuovo{
+        display: none;
+    }
+
+    .Grigio{
+        margin-right:20px;
+    }
+    .ImmagineSecondaColonna img{
+        width: 100%;
+    }
+    .ImmagineSecondaColonna{
+        margin-right:20px;
+    }
+    .DescrizioneSecondaColonna{
+        margin-right:20px;
+    }
+    .ContenitoreQuattro{
+        margin-right:15px;
+    }
+
+    .ContenitoreBandiera{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .DescrizioneBandiera{
+        margin-top:20px;
+        margin-left:20px;
+    }
+
+    .ScuolaIlFattoQuotidiano img{
+        width: 95%;
+        margin-right: 20px;
+    }
+    hr{
+        width: 97%;
+    }
+
+
+    .Rullonuovo{
+        width:100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .col-lg-3 {
+        height: 100%;
+        width: 33%;
+    }
+
+    .ContenitoreTitoloAlto{
+        width: 55%;
+    }
+    .Notizie{
+        width: 55%;
+    }
+    .ImmagineNotizia img{
+        width: 230px;
+        height: 180px;
+
+    }
+    .contenitoreLink{
+        display: none;
+    }
+    .contenitoreLink2{
+        display: flex;
+    }
+    .Footer-link{
+        height: 90px;
+    }
+    .contenitoreLink3{
+        display: none;
+    }
+
+
+
+}
+@media (max-width: 1397px) and (min-width: 1025px) {
+
+    .Margini{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .CHeader{
+        height: 50px;
+        position: fixed;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        right: 0;
+        z-index: 1000;
+        margin:0;
+    }
+    .conteiner-Header{
+        float: left;
+        height:50px;
+        width:100% ;
+    }
+    .ScritteH1{
+        display:none;
+    }
+    .Scrittep{
+        display:none;
+    }
+    .conteiner-bottone{
+        margin-top:10px;
+        width:85% ;
+    }
+    .conteiner-logo{
+        margin-left:50px;
+    }
+    .contenitoreNav{
+        display:none;
+        background:floralwhite;
+    }
+    .ContenitoreNascosto{
+        display: flex;
+    }
+
+    .contenitoreNav2 {
+        width:100%;
+        overflow-x: scroll;
+    }
+    .Conteiner-icons{
+        margin-top:20px;
+    }
+
+
+    .LineaVuota1{
+        display:none;
+    }
+
+    .TitoloDescrizione{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione2{
+        margin-left: 40px;
+    }
+    .TitoloDescrizione3{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione4{
+        margin-left: 40px;
+    }
+
+
+    .col-lg-7 img{
+        width: 100%;
+        margin-right:5px;
+    }
+    .col-lg-2 .ColonnaArticolo{
+        width: 100%;
+        flex: 0 0 auto;
+        margin-left:0;
+    }
+
+    .col-lg-4{
+        width: 33%;
+    }
+    .DueColonneNuovo{
+        display: none;
+    }
+
+    .ImmagineSecondaColonna img{
+        width: 100%;
+        margin-right:20px;
+    }
+    .DescrizioneSecondaColonna{
+        margin-right:20px;
+    }
+    .Grigio{
+        margin-right:20px;
+    }
+
+    .ContenitoreQuattro{
+        margin-right:15px;
+    }
+    .ContenitoreBandiera{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .DescrizioneBandiera{
+        margin-top:20px;
+        margin-left:20px;
+    }
+
+
+    .ScuolaIlFattoQuotidiano img{
+        width: 100%;
+        margin-right: 20px;
+    }
+    hr{
+        width: 97%;
+    }
+
+
+    .Rullonuovo{
+        width:100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .col-lg-3 {
+        width: 28%;
+    }
+
+    .Notizie{
+        width: 55%;
+    }
+    .ImmagineNotizia img{
+        width: 250px;
+        height: 200px;
+
+    }
+    .contenitoreLink{
+        display: none;
+    }
+    .contenitoreLink2{
+        display: flex;
+    }
+    .Footer-link{
+        height: 90px;
+
+    }
+    .contenitoreLink3{
+        display: none;
+    }
+
+
+
+}
+@media (max-width: 1540px) and (min-width: 1397px) {
+    .CHeader{
+        height: 50px;
+        position: fixed;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        right: 0;
+        z-index: 1000;
+        left:0;
+        margin-left: 100px;
+        margin-right:100px;
+    }
+
+    .conteiner-logo img{
+        margin-left:90px;
+    }
+    .CLogo{
+        width: 200px !important;
+    }
+
+    .contenitoreNav{
+        width:100%;
+    }
+
+    .LineaVuota1{
+        display:none;
+    }
+
+
+    .TitoloDescrizione{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione2{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione3{
+        margin-left: 30px;
+    }
+    .TitoloDescrizione4{
+        margin-left: 30px;
+    }
+
+
+    .col-lg-7 img{
+        width: 100%;
+    }
+    .col-lg-2 .ColonnaArticolo{
+        width: 100%;
+        flex: 0 0 auto;
+        margin-left:15px;
+    }
+    .col-lg-4{
+        width: 33%;
+    }
+
+
+    .DueColonneNuovo{
+        display: none;
+    }
+    .Grigio{
+        margin-right:20px;
+    }
+    .ImmagineSecondaColonna{
+        margin-right:20px;
+    }
+    .DescrizioneSecondaColonna{
+        margin-right:20px;
+    }
+    .ContenitoreQuattro{
+        margin-right:15px;
+    }
+    .ContenitoreBandiera{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .DescrizioneBandiera{
+        margin-top:20px;
+        margin-left:20px;
+    }
+    .ScuolaIlFattoQuotidiano img{
+        width: 100%;
+        margin-right: 20px;
+    }
+    hr{
+        width: 95%;
+    }
+
+    .Notizie{
+        width: 380px;
+        margin-left:40px;
+    }
+    .ImmagineNotizia img{
+        width: 100%;
+    }
+    .contenitoreLink{
+        flex: 0 0 auto;
+    }
+    .contenitoreLink3{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

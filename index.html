@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <!-- meta per responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cc56c431c9.js" crossorigin="anonymous"></script>
+    <title>IlfattoQuotidianoProgetto</title>
+    <link href="style.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body>
+<div class="EsternoMargini">
+    <div class="Margini">
+        <!-- Conteiner Navbar -->
+        <div id="Header" class="conteiner-Header">
+            <!-- Conteiner1internoBottone -->
+            <div class="conteiner-Box">
+                <div id="H1scritte" class="ScritteH1">
+                    <h5><strong>Sostieni il nostro giornalismo. </strong></h5>
+                </div>
+                <div id="pscritte" class="Scrittep">
+                    <p style="margin-left:20px;font-family:TT Norms Pro Regular,sans-serif; font-size: small">Leggere quello che gli altri non dicono dipende da te. </p>
+                </div>
+                <div id="bottone" class="conteiner-bottone">
+                    <button>SOSTIENICI</button>
+                </div>
+            </div>
+
+            <!-- ConteinerImmagineLogo -->
+            <div id="logo_Conteiner" class="conteiner-logo">
+                <img src="data:image/png;base64,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"  alt="logo" id="immagine">
+            </div>
+            <!-- ConteinerNav più Search e Burger -->
+            <div id="Contenitore-Link" class="contenitoreLinkHeader">
+                <div class="contenitoreNav">
+                    <nav class="nav">
+                        <a class="nav-link active" aria-current="page" href="#"><nobr>Fondazione FQ</nobr></a>
+                        <a class="nav-link" href="#"><nobr>Scuola del Fatto</nobr></a>
+                        <a class="nav-link" href="#"><span style="color: #8c0404;">Abbonati </span></a>
+                        <a class="nav-link" href="#" ><span style="color: black;">Accedi</span></a>
+                    </nav>
+                </div>
+                <div class="ContenitoreNascosto">
+                    <nav class="nav">
+                        <a class="nav-link active" aria-current="page" href="#">Accedi</a>
+                    </nav>
+                </div>
+                <div class="contenitoreSearch">
+                    <i class="fa-solid fa-light fa-magnifying-glass fa-2xl" style="color: #4a4e54; margin-top:20px; margin-right:10px;"> </i>
+                    <i class="fa-solid fa-light fa-bars fa-2xl" style="color: #4a4e54;margin-top:20px;"></i>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <!-- Conteiner Divisore Alto-->
+            <div class=conteinerVuoto></div>
+
+
+
+            <!-- Conteiner Direttore-->
+            <div class="conteinerRiga1">
+                <div class="conteiner-director">
+                    <p><nobr>Direttore: Peter Gomez </nobr></p>
+                </div>
+                <div class=conteinerVuoto2>
+                </div>
+                <div class="conteiner-update">
+                    <nobr>Aggiornato alle</nobr>
+                    <span class="highlight"><nobr>17:12</nobr></span>
+                </div>
+            </div>
+
+
+
+            <!-- Conteiner Divisore TemiAlto-->
+            <div class=conteinerVuoto3>
+            </div>
+
+
+
+            <!-- Conteiner TemiAlto-->
+            <div class="conteinerRiga2">
+                <div class="Conteiner-Temi">
+                    <p>Temi del Giorno</p>
+                </div>
+                <div class="contenitoreNav2">
+                    <nav class="nav">
+                        <a class="nav-link active" aria-current="page" href="#"><nobr>GIORGIA MELONI</nobr></a>
+                        <a class="nav-link" href="#"><nobr>DALAI LAMA</nobr></a>
+                        <a class="nav-link" href="#"><nobr>GUERRA RUSSIA UCRAINA</nobr></a>
+                        <a class="nav-link" href="#" ><nobr>SILVIO BERLUSCONI</nobr></a>
+                        <a class="nav-link" href="#" ><nobr>MATTEO RENZI</nobr></a>
+                    </nav>
+                </div>
+                <div class="Conteiner-icons">
+                    <nav class="socialicons">
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #cdd2da; margin-right:20px;"></i>
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #cdd2da;margin-right:20px;"></i>
+                        <i class="fa-brands fa-twitter fa-2xl" style="color: #cdd2da;margin-right:20px;"></i>
+                        <i class="fa-solid fa-paper-plane fa-2xl" style="color: #cdd2da;"></i>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Conteiner Divisore CaroselAlto-->
+            <div class=conteinerVuoto5>
+            </div>
+
+            <!-- Conteiner Striscia rossa-->
+            <div class="blocco-fqextra">
+                <div class="conteinerSinistra">
+                    <div class="blocco-fqextra-Scritta">
+                        <p> <strong> <nobr>FQ EXTRA</nobr></strong> </p>
+                    </div>
+                    <div id="circle"></div>
+                    <div class="bloccoSezione" >
+                        <p><nobr>LA SEZIONE </nobr></p >
+                    </div>
+                    <div class="bloccoPremium" >
+                        <p> <strong>  PREMIUM </strong> </p>
+                    </div>
+                    <div class="bloccoQuotidiano" >
+                        <p> DEL FATTO QUOTIDIANO </p>
+                    </div>
+                </div>
+
+                <div class="conteinerDestra">
+                    <div class="bloccoAbbonati" >
+                        <p> <strong>  ABBONATI</strong> </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Conteiner DivisoreCarosel-->
+            <div class="LineaVuota">
+            </div>
+
+
+            <!-- Carosel-->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="ContenitoreCarosello1">
+                            <div class="TitoloDescrizione">
+                                <h1><span style="color: red;font-family:TT Norms Pro Regular,sans-serif; font-size: medium;">TITOLO 1</span></h1>
+                                <p><span style="color: white;font-family:TT Norms Pro Regular,sans-serif;">Breve descrizione</span></p>
+                            </div>
+                            <div class="CaroselloImmagine1">
+                                <img src="https://www.sportoutdoor24.it/app/uploads/2015/06/pexels-jaime-reimer-2662116-670x470.jpg"  width="150" height="100" alt="IMMAGINE" style="margin-left:0">
+                            </div>
+                            <div class="TitoloDescrizione2">
+                                <h1><span style="color: red;font-family:TT Norms Pro Regular,sans-serif;font-size: medium;">TITOLO 2</span></h1>
+                                <p><span style="color: white;font-family:TT Norms Pro Regular,sans-serif;">Breve descrizione</span></p>
+                            </div>
+                            <div class="CaroselloImmagine2">
+                                <img src="https://www.fotografiamoderna.it/wp-content/uploads/2017/12/Fotografie-paesaggi7.jpg"  width="150" height="100"  alt="IMMAGINE" style="margin-right:100px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="ContenitoreCarosello2">
+                            <div class="TitoloDescrizione3">
+                                <h1><span style="color: red;font-family:TT Norms Pro Regular,sans-serif;font-size: medium;">TITOLO 3</span></h1>
+                                <p><span style="color: white;font-family:TT Norms Pro Regular,sans-serif;">Breve descrizione </span></p>
+                            </div>
+                            <div class="CaroselloImmagine3">
+                                <img src="https://www.loversintheworld.it/wp-content/uploads/2017/05/sfondo-wallpaper-natura-paesaggi-1366-768-140.jpg"  width="150" height="100" alt="IMMAGINE" style="margin-left:20px">
+                            </div>
+                            <div class="TitoloDescrizione4">
+                                <h1><span style="color: red;font-family:TT Norms Pro Regular,sans-serif;font-size: medium;">TITOLO 4</span></h1>
+                                <p><span style="color: white;font-family:TT Norms Pro Regular,sans-serif;">Breve descrizione </span></p>
+                            </div>
+                            <div class="CaroselloImmagine4">
+                                <img src="https://www.wallpapertip.com/wmimgs/43-438400_sea-sunrise-hd-wallpaper-download.jpg"  width="150" height="100" alt="IMMAGINE" style="margin-right:120px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" >
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <div class="SecondaLineaVuota">
+            </div>
+
+            <!-- Titolo grande-->
+            <div class="conteinerTitotolo">
+                <h1> <strong> Il governo decide un altro mini-taglio al cuneo fiscale.
+                    <span style="color: #8c0404;">"Moderare crescita dei salari per fermare l'inflazione".</span><br>
+                    Ma gli stipendi in Italia sono paralizzati da 30 anni.</strong> </h1>
+            </div>
+
+
+            <!-- Divisione in due colonne Immagine e testo-------------------------------------->
+            <section class="sezionePrima">
+                <div class="conteiner">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <img src="https://scuoladiformazionepolitica.blog/wp-content/uploads/2021/08/chi-produce-i-soldi-1024x683.jpg" alt="IMMAGINE">
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="ColonnaArticolo">
+                                <h3> <span style="color: #8c0404; font-weight: bold;">MELONI E L'ECONOMIA</span>-<span style="color: inherit; font-weight: lighter;"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Duis tincidunt vehicula sapien eget convallis. Etiam ac nunc ac dolor aliquet ullamcorper.</span>
+                                </h3>
+                                <div class="ConteinerEsterno">
+                                    <div class="Conteriner1">
+                                        <div class="Conteiner-Autore">
+                                            <p> <span style="color: #cdd2da;">Di Chiara Bruni</span></p>
+                                        </div>
+                                        <div class="Conteiner-icons2">
+                                            <nav class="socialicons2">
+                                                <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;margin-left:30px;"></i>
+                                                <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                                <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;"></i>
+                                            </nav>
+                                        </div>
+
+                                    </div>
+                                    <div class="Conteriner2">
+                                        <div class="SecondaSezione">
+                                            <h3><span style="font-size: 1.1rem;font-weight: bold;">
+                                    <span style="color: #8c0404;">MELONI E L'ECONOMIA</span>- Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <div class="Conteriner3">
+                                        <div class="Sezione3">
+                                            <h3> <span style="font-size: 1.1rem;font-weight: bold;">
+                                    <span style="color: #8c0404; font-weight: bold;">MELONI E L'ECONOMIA</span>-
+                                    Duis tincidunt vehicula sapien eget convallis. Etiam ac nunc ac dolor aliquet ullamcorper.</span>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- --------------------------------------------------------------------------------------->
+
+            <div class=conteinerVuoto5>
+            </div>
+
+
+            <hr style="margin-left:20px">
+            <!-- Divisione in TRE Colonne UGUALI (cardColonna, ImmagineSecondaColonna, ContenitoriSecondaColonna) -------------------------------------------------------------------- -->
+            <section class="sezionePrima">
+                <div class="conteiner" style="margin-left: 20px;">
+                    <div class="row">
+                        <div class="col-lg-4" >
+                            <div class="cardColonna" >
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://img.freepik.com/premium-photo/sea-sky-twilight-time_44074-1271.jpg" width="380" height="173" alt="IMMAGINE" ;>
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" >
+                            <div class="cardColonna" >
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://img.freepik.com/premium-photo/sea-sky-twilight-time_44074-1271.jpg" width="380" height="173" ;>
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="margin-right:10px;" >
+                            <div class="cardColonna" style="border-right:none;">
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://img.freepik.com/premium-photo/sea-sky-twilight-time_44074-1271.jpg" width="380" height="173" alt="IMMAGINE" ;>
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---------------------------------------------------------------------- -->
+
+            <div class=conteinerVuotoGalleria>
+            </div>
+
+            <!--------COLONNE UGUALI-------------------------------------------------------------- -->
+            <hr style="margin-left:20px">
+            <section class="sezionePrima">
+                <div class="conteiner" style="margin-left: 20px;">
+                    <div class="row">
+                        <div class="col-lg-4" >
+                            <div class="cardColonna" >
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://i0.wp.com/www.giacomocusano.com/wp-content/uploads/2016/07/coastal-wash-web.jpg?fit=1024%2C682&ssl=1" width="380" height="173" alt="IMMAGINE" ;>
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: darkred;font-size: small; ">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" >
+                            <div class="cardColonna" >
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://i0.wp.com/www.giacomocusano.com/wp-content/uploads/2016/07/coastal-wash-web.jpg?fit=1024%2C682&ssl=1" width="380" height="173" alt="IMMAGINE" ;>
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="margin-right:10px;" >
+                            <div class="cardColonna" style="border-right:none;">
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://i0.wp.com/www.giacomocusano.com/wp-content/uploads/2016/07/coastal-wash-web.jpg?fit=1024%2C682&ssl=1" width="380" height="173" alt="IMMAGINE" ;>
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: darkred;font-size: small; ">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class=conteinerVuotoGalleria>
+            </div>
+            <!-- ----------------------------- -------------------------------------------------------------------- -->
+
+            <!-- Dividione in tre Colonne diverse (presenza contenitore quattro)----------------------------- -------------------------------------------------------------------- -->
+            <hr style="margin-left:20px">
+            <section class="sezioneSeconda" >
+                <div class="conteiner" style="margin-left: 20px;">
+                    <div class="row" >
+                        <div class="col-lg-4" >
+                            <div class="cardColonna" >
+                                <div class="ContenitoreBandiera">
+                                    <div class="ImmagineNome">
+                                        <div class="ImmagineBandiera">
+                                            <img src="https://thumbs.dreamstime.com/b/bandiera-tonda-dell-italia-italiana-con-pulsante-o-distintivo-218632133.jpg" alt="Bandiera" width="70" height="70" style="margin-left:0; border-radius: 50%;" >
+                                        </div>
+                                    </div>
+                                    <div class="NomeD">
+                                        <div class="IntroduzioneBandiera">
+                                            <div class="NomeBandiera">
+                                                <h4><strong>Bandiera Italiana</strong></h4>
+                                            </div>
+                                            <div class="ColoriBandiera">
+                                                <p>Verde,Bianco,Rosso</p>
+                                            </div>
+                                        </div>
+                                        <div class="IconeBandiera" style="margin-left: 40px;">
+                                            <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: black;margin-right:20px;"></i>
+                                            <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: black;margin-right:20px;"></i>
+                                            <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: black;margin-right:10px;"></i>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="DescrizioneBandiera">
+                                    <p><i>Etiam sollicitudin turpis vel tristique dictum. Aliquam ullamcorper </i></p>
+                                </div>
+
+                                <div class="ContenitoreBandiera">
+                                    <div class="ImmagineNome">
+                                        <div class="ImmagineBandiera">
+                                            <img src="https://png.pngtree.com/png-clipart/20221230/big/pngtree-spain-flag-round-shape-png-image_8832627.png" alt="Bandiera" width="70" height="70" style="margin-left:0; border-radius: 50%;" >
+                                        </div>
+                                    </div>
+                                    <div class="NomeD">
+                                        <div class="IntroduzioneBandiera">
+                                            <div class="NomeBandiera">
+                                                <h4><strong>Bandiera Spagnola</strong></h4>
+                                            </div>
+                                            <div class="ColoriBandiera">
+                                                <p>Rosso,Giallo</p>
+                                            </div>
+                                        </div>
+                                        <div class="IconeBandiera" style="margin-left: 40px;">
+                                            <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: black;margin-right:20px;"></i>
+                                            <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: black;margin-right:20px;"></i>
+                                            <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: black;margin-right:10px;"></i>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="DescrizioneBandiera">
+                                    <p><i>Etiam sollicitudin turpis vel tristique dictum. Aliquam ullamcorper </i></p>
+                                </div>
+
+                                <div class="ContenitoreBandiera">
+                                    <div class="ImmagineNome">
+                                        <div class="ImmagineBandiera">
+                                            <img src="https://static.vecteezy.com/ti/vettori-gratis/p3/556187-bandiera-tonda-dell-39-austria-gratuito-vettoriale.jpg" alt="Bandiera" width="70" height="70" style="margin-left:0; border-radius: 50%;" >
+                                        </div>
+                                    </div>
+                                    <div class="NomeD">
+                                        <div class="IntroduzioneBandiera">
+                                            <div class="NomeBandiera">
+                                                <h4><strong>Bandiera Austria</strong></h4>
+                                            </div>
+                                            <div class="ColoriBandiera">
+                                                <p>Rosso,Bianco</p>
+                                            </div>
+                                        </div>
+                                        <div class="IconeBandiera" style="margin-left: 40px;">
+                                            <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: black;margin-right:20px;"></i>
+                                            <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: black;margin-right:20px;"></i>
+                                            <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: black;margin-right:10px;"></i>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="DescrizioneBandiera">
+                                    <p><i>Etiam sollicitudin turpis vel tristique dictum. Aliquam ullamcorper </i></p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4" >
+                            <div class="cardColonna">
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://hips.hearstapps.com/cit.h-cdn.co/assets/15/30/il-tramonto-alle-maldive.jpg" width="380" height="173" alt="IMMAGINE" ;>
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" style="margin-right:10px;" >
+                            <div class="cardColonna" style="border-right:none;">
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://thumbs.dreamstime.com/b/paesaggio-meraviglioso-della-toscana-con-gli-alberi-di-cipresso-le-aziende-agricole-e-le-citt%C3%A0-medievali-italia-tramonto-rosa-e-67166437.jpg" width="380" height="173"  alt="IMMAGINE" ;>
+                                </div>
+                                <div class="ContenitoreQuattro">
+                                    <div class="TitoloQuattro" >
+                                        <h3> <span style="color: darkred;font-size: small">IMMAGINE</span></h3>
+                                    </div>
+                                    <div class="DescrizioneTitoloQuattro" >
+                                        <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, consecte adipisci elit.
+                            Vivamus sit amet urna malesuada, po nunc id, luctus magna.</span>
+                                        </p>
+                                    </div>
+                                    <div class="Paragrafo1" >
+                                        <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                        <span style="color: #8c0404;">MONGOLFIERE</span>-
+                        <span style="font-size:medium;font-weight: 500;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</span></span>
+                                        </p>
+                                    </div>
+                                    <div class="Paragrafo2" >
+                                        <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            <span style="color: #8c0404; font-weight: bold;">IMMAGINE SOPRA</span>-
+                            <span style="font-size:medium;font-weight: 500;">"Duis tincidunt vehicula sapien eget convallis. Etiam ac nunc ac dolor aliquet ullamcorper."</span></span>
+                                        </p>
+                                    </div>
+                                    <div class="Paragrafo3" >
+                                        <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            <span style="color: #8c0404; font-weight: bold;">PAESAGGI DA VISITARE IN PRIMAVERA</span>-
+                            <span style="font-size:medium;font-weight: 500;">"Nulla ex massa, aliquet et aliquam vel, eleifend et lorem.
+                                Nullam lectus lectus, vehicula ac augue sed, commodo porttitor dolor."</span></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="ContenitoreFinale" >
+                                    <div class="ContenitoreFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQ">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ----------------------------- -------------------------------------------------------------------- -->
+            <!-- il fatto quotidiano immagine -->
+            <div class="ScuolaIlFattoQuotidiano">
+                <img src="https://st.ilfattoquotidiano.it/wp-content/uploads/2022/11/10/scuola_1050x70.png">
+            </div>
+            <div class="SecondaLineaVuota">
+            </div>
+
+            <div class=conteinerVuotoGalleria>
+            </div>
+
+            <!-- Divisione 4 card con sfondo nero (cardColonnaNuova, ImmagineSecondaColonna CAMBIARE!!!!)--------------------------------------->
+            <div class="Rullonuovo" style="height: 400px; background: black; ">
+                <div class="conteiner" style="height: 400px; background: black; width: 100%; margin-left:20px;">
+                    <div class="row" style="flex-wrap: nowrap;">
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/52/5e/49/charbonnier-mongolfiere.jpg?w=1200&h=-1&s=1" alt="IMMAGINE">
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: white;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px; color:white">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://media.gqitalia.it/photos/606f2bce98c20ba946752c05/4:3/w_2447,h_1835,c_limit/GettyImages-688057449.jpg" alt="IMMAGINE">
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: white;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px; color:white">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/52/5e/49/charbonnier-mongolfiere.jpg?w=1200&h=-1&s=1" alt="IMMAGINE" >
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: white;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px; color:white">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://media.gqitalia.it/photos/606f2bce98c20ba946752c05/4:3/w_2447,h_1835,c_limit/GettyImages-688057449.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: white;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px; color:white">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Divisione 4 card con sfondo nero (cardColonnaNuova, ImmagineSecondaColonna)--------------------------------------->
+
+            <div class=conteinerVuotoGalleria>
+            </div>
+
+
+            <!-- Divisione 2 colonne diverse diverse ContenitoreNotizia, contenitoreTitoloalto ecc)-->
+            <section class="DueColonne">
+                <div class="conteiner" style="margin-left:20px">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="ContenitoreNotizia" >
+                                <div class="ContenitoreTitoloAlto">
+                                    <h2> <strong> Nulla nec metus condimentum, pharetra felis id, condimentum leo.
+                                        <span style="color: #8c0404;">"am in massa risus. Nunc vel tempus justo".</span><br>
+                                        Donec sed diam quis velit volutpat sagittis eget id libero.</strong> </h2>
+                                </div>
+                                <div class="ImmagineTestoNotizia">
+                                    <div class="ImmagineNotizia">
+                                        <img src="https://thumbs.dreamstime.com/b/sentiero-nel-bosco-di-autunno-nel-tramonto-61862240.jpg" alt="IMMAGINE" style="margin-left:20px" ;>
+                                    </div>
+                                    <div class="Notizie">
+                                        <div class="NotiziaGrande">
+                                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        Lipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                            </p>
+                                        </div>
+                                        <div class="NotiziaUno">
+                                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                    <span style="color: #8c0404;">NOTIZIA2</span>-
+                                        <span style="font-size:medium;font-weight: 500;">"Lorem ipsum dolor sit amet."</span>
+                                    </span>
+                                            </p>
+                                        </div>
+                                        <div class="NotiziaDue">
+                                            <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        <span style="  color: #8c0404; font-weight: bold;">NOTIZIA2</span>-
+                                        <span style="font-size:medium;font-weight: 500;">"Duis tincidunt vehicula sapien eget convallis.
+                                            Etiam ac nunc ac dolor aliquet ullamcorper."</span>
+                                    </span>
+                                            </p>
+                                        </div>
+                                        <div class="NotiziaTre">
+                                            <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        <span style="color: #8c0404; font-weight: bold;">PAESAGGI DA VISITARE IN PRIMAVERA</span>-
+                                            <span style="font-size:medium;font-weight: 500;">"Nulla ex massa, aliquet et aliquam vel, eleifend et lorem.
+                                                Nullam lectus lectus, vehicula ac augue sed, commodo porttitor dolor."</span>
+                                         </span>
+                                            </p>
+                                        </div>
+                                        <div class="ContenitoreFinaleQuattro">
+                                            <div class="ContenitoreFQQuattro">
+                                                <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                            </div>
+                                            <div class="Conteiner-iconsFQQuattro">
+                                                <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                                <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                                <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" >
+                            <div class="cardColonna" style="border-right:none;">
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://viaggiatore.net/wp-content/uploads/2019/01/tasmania-tramonto-bosco.jpg" alt="IMMAGINE" width="400" height="173" ;>
+                                </div>
+                                <div class="TitoloSecondaColonna">
+                                    <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="DueColonneNuovo" style="margin-left:30px;">
+                <div class="colNuova">
+                    <div class="ColonnaTitolo">
+                        <h2> <strong> Nulla nec metus condimentum, pharetra felis id, condimentum leo.
+                            <span style="color: #8c0404;">"am in massa risus. Nunc vel tempus justo".</span><br>
+                            Donec sed diam quis velit volutpat sagittis eget id libero.</strong> </h2>
+                    </div>
+                    <div class="ImmagineNotiziaNuova">
+                        <img src="https://thumbs.dreamstime.com/b/sentiero-nel-bosco-di-autunno-nel-tramonto-61862240.jpg" alt="IMMAGINE" >
+                    </div>
+                    <div class="ContenitoreFinaleQuattro" style="margin-top:10px; margin-right:20px;">
+                        <div class="ContenitoreFQQuattro">
+                            <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                        </div>
+                        <div class="Conteiner-iconsFQQuattro" style="margin-top:10px;">
+                            <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: black;margin-right:10px;"></i>
+                            <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color:black;margin-right:10px;"></i>
+                            <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: black;margin-right:10px;"></i>
+                        </div>
+                    </div>
+                    <div class="Notizie" style="margin-left:0;">
+                        <div class="NotiziaGrande" style="margin-right:20px;">
+                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        Lipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                            </p>
+                        </div>
+                        <div class="NotiziaUno">
+                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                    <span style="color: #8c0404;">NOTIZIA2</span>-
+                                        <span style="font-size:medium;font-weight: 500;">"Lorem ipsum dolor sit amet."</span>
+                                    </span>
+                            </p>
+                        </div>
+                        <div class="NotiziaDue">
+                            <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        <span style="  color: #8c0404; font-weight: bold;">NOTIZIA2</span>-
+                                        <span style="font-size:medium;font-weight: 500;">"Duis tincidunt vehicula sapien eget convallis.
+                                            Etiam ac nunc ac dolor aliquet ullamcorper."</span>
+                                    </span>
+                            </p>
+                        </div>
+                        <div class="NotiziaTre">
+                            <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        <span style="color: #8c0404; font-weight: bold;">PAESAGGI DA VISITARE IN PRIMAVERA</span>-
+                                            <span style="font-size:medium;font-weight: 500;">"Nulla ex massa, aliquet et aliquam vel, eleifend et lorem.
+                                                Nullam lectus lectus, vehicula ac augue sed, commodo porttitor dolor."</span>
+                                         </span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="DueColonneNuovo" style="margin-left:30px;">
+                <div class="col-lg-4" >
+                    <div class="cardColonna" style="border-right:none;margin-left:0">
+                        <div class="ImmagineSecondaColonna">
+                            <img src="https://viaggiatore.net/wp-content/uploads/2019/01/tasmania-tramonto-bosco.jpg" alt="IMMAGINE" width="400" height="173" ;>
+                        </div>
+                        <div class="TitoloSecondaColonna">
+                            <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                        </div>
+                        <div class="DescrizioneSecondaColonna">
+                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                            </p>
+                        </div>
+                        <div class="ContenitoreSecondaColonna">
+                            <div class="ContenitoreSecondaFQ">
+                                <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                            </div>
+                            <div class="Conteiner-iconsFQSeconda">
+                                <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ------------------------------------------------------------------------------------ -->
+            <hr style="margin-left:20px">
+            <div class=conteinerVuotoGalleria>
+            </div>
+            <!-- Divisione 2 colonne diverse diverse------------------------------------------------- -->
+            <section class="DueColonne">
+                <div class="conteiner" style="margin-left:20px">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="ContenitoreNotizia" >
+                                <div class="ContenitoreTitoloAlto">
+                                    <h2> <strong> Nulla nec metus condimentum, pharetra felis id, condimentum leo.
+                                        <span style="color: #8c0404;">"am in massa risus. Nunc vel tempus justo".</span><br>
+                                    </strong> </h2>
+                                </div>
+                                <div class="ImmagineTestoNotizia">
+                                    <div class="ImmagineNotizia">
+                                        <img src="https://img.freepik.com/premium-photo/rapeseed-field-full-yellow-flowers-spring-landscape-without-sky_252085-3210.jpg" alt="IMMAGINE" style="margin-left:20px" ;>
+                                    </div>
+                                    <div class="Notizie">
+                                        <div class="NotiziaGrande">
+                                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        Lipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                            </p>
+                                        </div>
+                                        <div class="NotiziaUno">
+                                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                    <span style="color: #8c0404;">NOTIZIA2</span>-
+                                        <span style="font-size:medium;font-weight: 500;">"Lorem ipsum dolor sit amet."</span>
+                                    </span>
+                                            </p>
+                                        </div>
+                                        <div class="NotiziaDue">
+                                            <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        <span style="  color: #8c0404; font-weight: bold;">NOTIZIA2</span>-
+                                        <span style="font-size:medium;font-weight: 500;">"Duis tincidunt vehicula sapien eget convallis.
+                                            Etiam ac nunc ac dolor aliquet ullamcorper."</span>
+                                    </span>
+                                            </p>
+                                        </div>
+                                        <div class="ContenitoreFinaleQuattro">
+                                            <div class="ContenitoreFQQuattro">
+                                                <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                            </div>
+                                            <div class="Conteiner-iconsFQQuattro">
+                                                <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                                <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                                <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4" >
+                            <div class="cardColonna" style="border-right:none; margin-top:40px; " >
+                                <div class="ImmagineSecondaColonna">
+                                    <img src="https://previews.123rf.com/images/arcadi62/arcadi621710/arcadi62171000062/88252169-alberi-di-autunno-di-paesaggio-con-foglie-gialle-a-loschice-vecchio-parco-di-propriet%C3%A0-minsk.jpg" width="400" height="173" ;>
+                                </div>
+                                <div class="Grigio">
+                                    <div class="TitoloSecondaColonna">
+                                        <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                                    </div>
+                                    <div class="DescrizioneSecondaColonna">
+                                        <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                    Lorem ipsum dolor sit amet, cons adipiscing elit.
+                                    Vivamus sit amet urna malesuada, porta nunc id, luctus magna.
+                                    </span></p>
+                                    </div>
+                                    <div class="ContenitoreSecondaColonna">
+                                        <div class="ContenitoreSecondaFQ">
+                                            <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                        </div>
+                                        <div class="Conteiner-iconsFQSeconda">
+                                            <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                            <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                            <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="DueColonneNuovo" style="margin-left:30px;">
+                <div class="colNuova">
+                    <div class="ColonnaTitolo">
+                        <h2> <strong> Nulla nec metus condimentum, pharetra felis id, condimentum leo.
+                            <span style="color: #8c0404;">"am in massa risus. Nunc vel tempus justo".</span><br>
+                            Donec sed diam quis velit volutpat sagittis eget id libero.</strong> </h2>
+                    </div>
+                    <div class="ImmagineNotiziaNuova">
+                        <img src="https://img.freepik.com/premium-photo/rapeseed-field-full-yellow-flowers-spring-landscape-without-sky_252085-3210.jpg" >
+                    </div>
+                    <div class="ContenitoreFinaleQuattro" style="margin-top:10px; margin-right:20px;">
+                        <div class="ContenitoreFQQuattro">
+                            <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                        </div>
+                        <div class="Conteiner-iconsFQQuattro" style="margin-top:10px;">
+                            <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: black;margin-right:10px;"></i>
+                            <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color:black;margin-right:10px;"></i>
+                            <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: black;margin-right:10px;"></i>
+                        </div>
+                    </div>
+                    <div class="Notizie" style="margin-left:0;">
+                        <div class="NotiziaGrande" style="margin-right:20px;">
+                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        Lipsum dolor sit amet, consectetur adipiscing elit.
+                                        Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                            </p>
+                        </div>
+                        <div class="NotiziaUno">
+                            <p><span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                    <span style="color: #8c0404;">NOTIZIA2</span>-
+                                        <span style="font-size:medium;font-weight: 500;">"Lorem ipsum dolor sit amet."</span>
+                                    </span>
+                            </p>
+                        </div>
+                        <div class="NotiziaDue">
+                            <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        <span style="  color: #8c0404; font-weight: bold;">NOTIZIA2</span>-
+                                        <span style="font-size:medium;font-weight: 500;">"Duis tincidunt vehicula sapien eget convallis.
+                                            Etiam ac nunc ac dolor aliquet ullamcorper."</span>
+                                    </span>
+                            </p>
+                        </div>
+                        <div class="NotiziaTre">
+                            <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                        <span style="color: #8c0404; font-weight: bold;">PAESAGGI DA VISITARE IN PRIMAVERA</span>-
+                                            <span style="font-size:medium;font-weight: 500;">"Nulla ex massa, aliquet et aliquam vel, eleifend et lorem.
+                                                Nullam lectus lectus, vehicula ac augue sed, commodo porttitor dolor."</span>
+                                         </span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="DueColonneNuovo" style="margin-left:30px;">
+                <div class="col-lg-4" >
+                    <div class="cardColonna" style="border-right:none; margin-left:0; " >
+                        <div class="ImmagineSecondaColonna">
+                            <img src="https://previews.123rf.com/images/arcadi62/arcadi621710/arcadi62171000062/88252169-alberi-di-autunno-di-paesaggio-con-foglie-gialle-a-loschice-vecchio-parco-di-propriet%C3%A0-minsk.jpg" alt="IMMAGINE" width="400" height="173" ;>
+                        </div>
+                        <div class="LineaVuota">
+                        </div>
+                        <div class="Grigio">
+                            <div class="TitoloSecondaColonna">
+                                <h3> <span style="color: darkred;font-size: small;">IMMAGINE</span></h3>
+                            </div>
+                            <div class="DescrizioneSecondaColonna">
+                                <p> <span style="font-size: 1.1rem;font-weight: bold;line-height:5px;">
+                                    Lorem ipsum dolor sit amet, cons adipiscing elit.
+                                    Vivamus sit amet urna malesuada, porta nunc id, luctus magna.
+                                    </span></p>
+                            </div>
+                            <div class="ContenitoreSecondaColonna">
+                                <div class="ContenitoreSecondaFQ">
+                                    <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                </div>
+                                <div class="Conteiner-iconsFQSeconda">
+                                    <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                    <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                    <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ------------------------------------------------------------------------------------ -->
+            <div class=conteinerVuotoGalleria>
+            </div>
+
+            <hr style="margin-left:20px">
+            <!-- Divisione 4 card con sfondo Bianco (cardColonnaNuova, ImmagineSecondaColonna CAMBIARE!!!!)--------------------------------------->
+            <div class="Rullonuovo" style="height: 380px; background: white; ">
+                <div class="conteiner" style="height: 380px; background: white; width: 100%; margin-left:20px;">
+                    <div class="row" style="flex-wrap: nowrap;">
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.wallpapic.it/i484-323-147/thumb/paesaggi-verdi-umidita-rugiada-sfondo.jpg" alt="IMMAGINE">
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://www.pixolo.it/wp-content/uploads/2012/11/spectacular-green-field-1920x1200-wallpaper-9036.jpg" alt="IMMAGINE">
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlMAyQSJ-WbG5HmhkNjlfgmdH2IJYn-V00KrNMc9pBvQ5rqSAkam_Oj246WGx1rMMXHgI&usqp=CAU" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.freepik.com/premium-photo/fresh-lime-slices-as-background_188078-10667.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Divisione 4 card con sfondo Bianco (cardColonnaNuova, ImmagineSecondaColonna)--------------------------------------->
+            <hr style="margin-left:20px">
+            <!-- Divisione 4 card con sfondo Bianco (cardColonnaNuova, ImmagineSecondaColonna CAMBIARE!!!!)--------------------------------------->
+            <div class="Rullonuovo" style="height: 380px; background: white; ">
+                <div class="conteiner" style="height: 380px; background: white; width: 100%; margin-left:20px;">
+                    <div class="row" style="flex-wrap: nowrap;">
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/blue-foaming-water-ocean-background-alex-grichenko.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.freepik.com/free-photo/beautiful-still-life-with-water_23-2149199557.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.freepik.com/free-photo/hydro-alcoholic-gel-close-up_23-2148775346.jpg?w=2000" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://as2.ftcdn.net/v2/jpg/01/03/18/13/1000_F_103181328_YhvC35jFtKC9DBNektoITmqOikTv3zRS.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-left:20px">
+            <div class="Rullonuovo" style="height: 380px; background: white; ">
+                <div class="conteiner" style="height: 380px; background: white; width: 100%; margin-left:20px;">
+                    <div class="row" style="flex-wrap: nowrap;">
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.wallpapic.it/i9711-935-519/medium/australia-citta-blu-paesaggio-urbano-sfondo.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.wallpapic.it/i0193-119-63/medium/paesaggio-urbano-citta-metropoli-natura-sfondo.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.wallpapic.it/i0085-445-429/thumb/paesaggio-urbano-citta-metropoli-riflessione-sfondo.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9D8rogtWWg198D74gtxcq29tRBevP6cCF0gHVOuTGakAVSz3vLgI92UQ5bfvJbzV4Zw&usqp=CAU" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-left:20px">
+            <div class="Rullonuovo" style="height: 380px; background: white; ">
+                <div class="conteiner" style="height: 380px; background: white; width: 100%; margin-left:20px;">
+                    <div class="row" style="flex-wrap: nowrap;">
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.pixers.pics/pho_wat(s3:700/FO/17/35/50/17/3/700_FO173550173_b28b5866ca380be59e7ab6482ecacdcf.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/adesivi-ultra-viola-tramonto-sul-paesaggio-marino.jpg.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://besthqwallpapers.com/Uploads/24-8-2016/1668/thumb2-boat-lake-purple-dawn-landscape.jpg" alt="IMMAGINE" >
+                                </div>
+
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://thumbs.dreamstime.com/b/splendidi-paesaggi-stagionali-dell-alba-o-del-tramonto-sul-mare-andaman-phuket-thailandia-e-epico-paesaggio-marino-con-rocce-nel-205752810.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.pixers.pics/pho_wat(s3:700/FO/17/35/50/17/3/700_FO173550173_b28b5866ca380be59e7ab6482ecacdcf.jpg,700,467,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,417,jpg)/adesivi-ultra-viola-tramonto-sul-paesaggio-marino.jpg.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-left:20px">
+            <div class="Rullonuovo" style="height: 380px; background: white; ">
+                <div class="conteiner" style="height: 380px; background: white; width: 100%; margin-left:20px;">
+                    <div class="row" style="flex-wrap: nowrap;">
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://static.vecteezy.com/ti/foto-gratuito/p2/17442766-in-scala-di-grigi-tiro-di-un-paesaggio-con-alberi-foto.jpg" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://thumbs.dreamstime.com/b/paesaggio-grigio-di-inverno-62514428.jpg" alt="IMMAGINE" >
+                                </div>
+
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://media.istockphoto.com/id/1446629796/it/foto/scala-di-grigi-del-molo-di-cocoa-beach-circondato-da-un-paesaggio-marino-in-florida.jpg?s=612x612&w=0&k=20&c=yQYgjMCAJmUWfofnsLiukw7NK0GmWl9w1fvRPqV038Q=" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3" >
+                            <div class="cardColonnaNuova" style="border-right:none; margin-top:30px;">
+                                <div class="ImmagineSecondaColonnaNuova">
+                                    <img src="https://img.fotocommunity.com/cielo-grigio-364bc7ad-9738-459d-b403-612cf902f1fe.jpg?height=1080" alt="IMMAGINE" >
+                                </div>
+                                <div class="DescrizioneSecondaColonna">
+                                    <p><span style="font-size: 1.1rem;line-height:5px; color:black">
+                            Lorem ipsum dolor sit amet, cons adipiscing elit.
+                            Vivamus sit amet urna malesuada, porta nunc id, luctus magna.</span>
+                                    </p>
+                                </div>
+                                <div class="ContenitoreSecondaColonna">
+                                    <div class="ContenitoreSecondaFQ">
+                                        <p> <span style="color: #cdd2da;">Di F.Q.</span></p>
+                                    </div>
+                                    <div class="Conteiner-iconsFQSeconda">
+                                        <i class="fa-sharp fa-regular fa-bookmark fa-lg " style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-solid fa-arrow-up-from-bracket fa-lg" style="color: #cdd2da;margin-right:10px;"></i>
+                                        <i class="fa-sharp fa-regular fa-comments fa-lg" style="color: #cdd2da;margin-right:0;"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </main>
+        <!-- FOOTER-->
+        <footer >
+            <div class="ContenitoreFooter" style="background: #0a0a0a">
+                <div class="Footer-Logo">
+                    <img class="LogoFinale" src="https://st.ilfattoquotidiano.it/wp-content/themes/ifq-2019/assets/img/svg/logo-tablet-white.svg" width="60" height="40" style="margin-top: 10px">
+                </div>
+                <div class="Divisore">
+                </div>
+                <div class="Footer-link">
+                    <div class="contenitoreLink">
+                        <nav class="nav">
+                            <a class="nav-link active" aria-current="page" href="#"><strong><span style="color:white; margin-right:20px; ">PRIVACY</span></strong></a>
+                            <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">TERMINI E CONDIZIONI D'USO</span></strong></a>
+                            <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">REDAZIONE</span></strong></a>
+                            <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">SOSTIENICI</span></strong></a>
+                            <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">FONDAZIONE FQ</span></strong></a>
+                            <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">CAMBIA IMPOSTAZIONI PRIVACY</span></strong></a>
+                        </nav>
+                    </div>
+                    <div class="contenitoreLink2">
+                        <div class="contenitoreLinkS">
+                            <nav class="nav">
+                                <a class="nav-link active" aria-current="page" href="#"><strong><span style="color:white; margin-right:20px; ">PRIVACY</span></strong></a>
+                                <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">TERMINI E CONDIZIONI D'USO</span></strong></a>
+                                <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">REDAZIONE</span></strong></a>
+                                <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">SOSTIENICI</span></strong></a>
+                                <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">FONDAZIONE FQ</span></strong></a>
+                            </nav>
+                        </div>
+                        <div class="contenitoreLinkS2">
+                            <nav class="nav">
+                                <a class="nav-link" href="#"><strong><span style="color:white; margin-right:20px;">CAMBIA IMPOSTAZIONI PRIVACY</span></strong></a>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="contenitoreLink3">
+                        <p style="color:white; margin-right:20px; line-height: 50px; text-align: center;"> <strong>PRIVACY <br> TERMINI E CONDIZIONI D'USO <br>
+                            REDAZIONE <br> SOSTIENICI <br> FONDAZIONE FQ <br>CAMBIA IMPOSTAZIONI PRIVACY
+                        </strong></p>
+                    </div>
+                </div>
+                <div class="Divisore">
+                </div>
+                <div class="Footer-Social">
+                    <div class="contenitoreSocial">
+                        <nav class="nav">
+                            <i class="fa-brands fa-facebook fa-2xl" style="color: white; margin-right:40px;margin-top:20px;"></i>
+                            <i class="fa-brands fa-whatsapp fa-2xl" style="color: white; margin-right:40px;margin-top:20px;"></i>
+                            <i class="fa-brands fa-instagram fa-2xl" style="color: white;margin-right:40px;margin-top:20px;"></i>
+                            <i class="fa-brands fa-twitter fa-2xl" style="color: white;margin-right:40px;margin-top:20px;"></i>
+                            <i class="fa-solid fa-paper-plane fa-2xl" style="color: white;margin-right:40px;margin-top:20px;"></i>
+                            <i class="fa-brands fa-youtube fa-2xl" style="color: white;margin-top:20px;"></i>
+                        </nav>
+                    </div>
+                </div>
+                <div class="Divisore">
+                </div>
+                <div class="Footer-Finale">
+                    <p><span style="color: white">©2009-2023 SEIF S.p.A - C.F.eP.IVA 10460121006</span></p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </footer>
+
+    </div>
+</div>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+-->
+
+<script src="script.js"></script>
+</body>
+</html>
