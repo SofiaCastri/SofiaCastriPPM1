@@ -763,6 +763,7 @@ h3 {
         float: left;
         height:50px;
         width:100% ;
+        margin-right:15px;
     }
     .ScritteH1{
         display:none;
@@ -771,9 +772,14 @@ h3 {
         display:none;
     }
     .conteiner-bottone{
-        width:55% ;
+        width:50% ;
         margin-top:10px;
     }
+    .conteiner-Box{
+        width:20% ;
+        margin-right:0px;
+    }
+
     .conteiner-logo img{
         display: none;
     }
@@ -947,11 +953,13 @@ h3 {
         z-index: 1000;
         margin:0;
     }
+
     .conteiner-Header{
         float: left;
         height:50px;
         width:100% ;
     }
+
     .ScritteH1{
         display:none;
     }
@@ -961,6 +969,10 @@ h3 {
     .conteiner-bottone{
         width:40% ;
         margin-top:10px;
+    }
+    .conteiner-Box{
+        width:20% ;
+        margin-right:0px;
     }
 
     .conteiner-logo{
@@ -1694,10 +1706,6 @@ h3 {
     }
 
 }
-
-
-
-
 
 
 

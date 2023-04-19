@@ -28,4 +28,3 @@ function navbar_Scroll () {
 }
 
 window.addEventListener("scroll", navbar_Scroll, false)
-
